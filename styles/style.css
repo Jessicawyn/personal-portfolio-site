@@ -2,7 +2,15 @@
     display: flex;
     flex-direction: row;
     padding-inline-start: 0;
+    /* justify-content: center; */
     
+}
+
+.block-pics {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    grid-template-rows: 20% 30% 20%;
+    justify-content: center;
 }
 
 body {
@@ -10,14 +18,23 @@ body {
     color: #02394A;
     background-color: #F2D492;
 }
+.block-pics {
+    background-color: #02394A;
+}
 
 figure{
-    border: thin #c0c0c0 solid;
+    border: thin #09BC8A solid;
+    background-color: #02394A;
     display: flex;
     flex-flow: column;
     padding: 5px;
     max-width: 220px;
+    /* max-height: 300px; */
     margin: auto;
+    color: #09BC8A;
+}
+.blank {
+    border: none;
 }
 
 header {
@@ -26,8 +43,10 @@ header {
 }
 
 img {
-    max-width: 220px;
-    max-height: 150px;
+    max-width: 1080px;
+    max-height: 1080px;
+    object-fit: cover;
+    /* min-width: 205px; */
 }
 
 .social-links {
