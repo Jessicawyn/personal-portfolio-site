@@ -5,32 +5,53 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Me!</title>
+  <link href="../styles/style.css" rel="stylesheet" />
 </head>
 <body>
-  <header>
-    <nav>
-      <a href="index.html">home</a>
-      <a href="about.html">about</a>
-      <a href="portfolio.html">portfolio</a>
-      <a href="musings.html">musings</a>
-    </nav>
+  <header class="social-links">
+    <a href="https://www.instagram.com/jessica.w.roberts/">
+    <img src="../images/instagram.png" alt="Instagram Logo" height=25 width=25>
+    </a>
+    <a href="https://www.linkedin.com/in/jessicawroberts/">
+      <img src="../images/Linkedin.png" alt="Linkedin Logo" height=25 width=25>
+      </a>
   </header>
+  <nav>
+    <ul class="main-nav">
+      <li><a href="index.html">home</a></li>
+      <li class="hash">/</li>
+      <li><a href="about.html">about</a></li>
+      <li class="hash">/</li>
+      <li><a href="portfolio.html">portfolio</a></li>
+      <li class="hash">/</li>
+      <li><a href="musings.html">musings</a></li>
+    </ul>
+  </nav>
   <main>
-    <h1>Hi, I'm Jessica and I'm learning how to code.</h1>
-    <p>I enjoy walking my dog, Hank 
-      <img src="images/hank.jpeg" alt="White goldendoodle enjoying a fall breeze.">
-    </p>
-    <img src="PERSONAL-PORTFOLIO-SITE\images\hank.jpeg" alt="White goldendoodle enjoying a fall breeze.">
+    <h1>Hello, nice to meet you! I'm Jessica and I'm learning HTML & CSS. Here's some additional things about me:</h1>
+    <section class="block-pics">
+      <figure class="likes">
+        <img src="../images/hank.jpeg" alt="White goldendoodle enjoying a fall breeze.">
+        <figcaption>My dog Hank.</figcaption>
+      </figure>
+      <figure class="likes">
+        <img src="../images/wyn.jpg" alt="Toddler running with carebear.">
+        <figcaption>My toddler, Wyn and her baby carebear.</figcaption>
+      </figure>
+      <figure class="likes">
+        <img src="../images/hayden.jpg" alt="Baby eating pizza.">
+        <figcaption>My 10 month old son, Hayden eating pizza.</figcaption>
+      </figure>
+      <figure class="likes">
+        <img src="../images/ski.jpeg" alt="Skier on mountain at sunrise.">
+        <figcaption>I enjoy skiing.</figcaption>
+      </figure>
+    </section>
 
   </main>
 
 </body>
 <footer>
-  <figure>
-    <blockquote>
-        <p>Smells like potential.</p>
-    </blockquote>
-    <figcaption>—Ted Lasso </figcaption>
-  </figure>
+    <p class=footer-quote><em>Smells like potential. -Ted Lasso</em></p>
 </footer>
 </html>
