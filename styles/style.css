@@ -12,6 +12,13 @@
     justify-content: center;
 }
 
+.home-gif {
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: 30%;
+}
+
+
 body {
     font-family: Helvetica;
     color: #09BC8A;
@@ -39,6 +46,10 @@ figcaption {
 header {
     background-color: #75DDDD;
     border: chartreuse;
+}
+
+h1 {
+    justify-content: center;
 }
 
 img {
@@ -99,3 +110,20 @@ footer {
 
 .footer-quote blockquote {
     align-self: center;
+}
+
+.gif {
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    
+}
+.tenor-gif-embed {
+    /* align-items: center; */
+    max-height: 50%;
+    max-width: 50%;
+    /* align-content: center; */
+    /* justify-content: center; */
+    /* align-self: center; */
+}
